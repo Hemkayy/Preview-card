@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+}
+.main{
+    display :flex;
+    width: 500px;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: white;
+}
+.main>img{
+    height: 350px;
+}
+.arrange{
+    padding-left: 30px;
+    padding-right: 250px;
+}
+h6{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    padding-top: 10px;
+    height: 40px;
+    
+}
+
+button>img{
+    height: 14px;
+}
+button>span{
+    color: hsl(0, 0%, 100%)
+}
+h2{
+    font-family: Fraunces;
+    font-weight: 700;
+}
+p{
+  font-weight: 500;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+h3>span{
+    color: hsl(158, 36%, 37%);
+    font-size: 20px;
+    font-family: Fraunces;
+}
+h3>del{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
