@@ -8,13 +8,13 @@ body{
 }
 .main{
     display :flex;
-    width: 500px;
+    width: 530px;
     height: fit-content;
     border-radius: 6px;
     background-color: white;
 }
 .main>img{
-    height: 350px;
+    height: 400px;
 }
 .arrange{
     padding-left: 30px;
